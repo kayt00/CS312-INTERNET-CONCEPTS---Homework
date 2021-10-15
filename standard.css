@@ -1,0 +1,47 @@
+/*Katie Taylor
+February 8, 2020*/
+
+body {
+  margin: 15px 15px 15px 15px;
+  background: lavender;
+  font-family: verdana;
+  font-size: 150%;
+  text-align: left; 
+  height: 100%;
+}
+h3 {
+  color: white;
+  font-family: verdana;
+  font-size: 300%;
+  background-color: black; 
+  text-align: left;
+}
+h4 {
+  color: purple;
+  text-align: left;
+  margin-left: 50px;
+  margin-bottom: 0px;
+}
+p {
+  text-align: left;
+  color: black;
+  border-style: double;
+  border-color: black;
+}
+a {
+  color: orange;
+}
+ul {
+  margin: 20px 20px 20px 20px;
+  color: purple;
+  text-align: left;
+}
+ul li{
+  padding: 5px;
+  margin-left: 50px;
+  color: purple;
+  text-align: left;
+}
+img {
+  float: right;
+} 

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+        <title>subscribe</title>
+        <link href="standard.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8"/>
+</head>
+<body>
+        <img src="webimage.png" 
+                alt="Cannot load image." width="500" height="300">
+        <h3>Subscription Sign Up</h3>
+        <h4 style="margin-left: 10px">Please fill in the information below to sign up for my email subscription list! :-) </h4>
+
+      <form method="post" action="subscribe_action.php">
+        <fieldset>
+                        First name:<br>
+                        <input type="text" name="firstname" size="24" required placeholder="Jane">*<br><br>
+                        Last name:<br>
+                        <input type="text" name="lastname" size="24" required placeholder="Doe">*<br><br>
+                        Email:<br>
+                        <input type="email" name="email" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" 
+                        size="35" placeholder="e.g. ilovecats@gmail.com">*<br><br>
+                        Status:<br>
+                        <input type="radio" name="status" value="student"> Student<br>
+                        <input type="radio" name="status" value="faculty"> Faculty<br>
+                        <input type="radio" name="status" value="otherr"> Other<br><br>
+                        Favororite Pet:<br>
+                <select name="pet">
+                        <option value="cat" selected>Cat</option>
+                        <option value="dog">Dog</option>
+                        <option value="bird">Bird</option>
+                        <option value="fish">Fish</option>
+                        <option value="rodent">Rodent</option>
+                        <option value="reptile">Reptile</option>
+                        <option value="other">Other</option>
+                </select><br><br>
+                        CS Course Number:<br>
+                        <input  type="number" name="course" placeholder="312" min="000" max="999"><br><br>
+                </fieldset>
+        <label for="box">I agree to sign up for the email list.</label>
+        <input type="checkbox" id="box" name="agree" required>*<br><br>
+
+        <div><input type="submit" value="Submit"></div>
+       </form>
+</body>
+</html>
