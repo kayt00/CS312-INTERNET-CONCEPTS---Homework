@@ -1,2 +1,3 @@
 # CS312-INTERNET-CONCEPTS---Homework
-CS312 homework assignment #2.
+
+In this assignment I developed a website 
